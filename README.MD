@@ -4,15 +4,26 @@ ___
 
 2) Téléchargement des outils nécessaires (_Node.js_ et _Jest_) depuis le Terminal (_Bash_).
 
-Pour installer Node.js : npm init -y  [cela installera aussi le package.json du projet /// pour mémoire, dans les projets JS, le fichier package.json simplifie la gestion des métadonnées et des dépendances d'un projet . Ce fichier garantit qu'un projet dispose toujours d'informations à jour sur les bibliothèques et les outils nécessaires à son bon fonctionnement.]
+>Pour **installer Node.js** :    
+npm init -y  
 
-Jest : npm install --save-dev jest
+Cela installera aussi le package.json du projet /// pour mémoire, dans les projets JS, le fichier package.json simplifie la gestion des métadonnées et des dépendances d'un projet . Ce fichier garantit qu'un projet dispose toujours d'informations à jour sur les bibliothèques et les outils nécessaires à son bon fonctionnement.
 
-Cela implique la modification d'une ligne code dans le package...
-
-![alt text](Pictures/arborescence1.png) Arborescence du dossier TEST-UNITAIRE-DEBUTANT originale
-
-![alt text](Pictures/arborescence2.png) Arborescence du dossier TEST-UNITAIRE-DEBUTANT modifiée
+>Pour **Jest** :   
+npm install --save-dev jest     
 
 
-![alt text](Pictures/message_erreur1.png) Message d'erreur lors du passage de Test (il faudra modifier les nom du fichier math_test.js en math.test.js car Jest reconnaît d'office certain format mais pas l'underscore).
+J'obtiens un message d'erreur lorsque je lance la commande. Cela implique la modification d'une ligne code dans le package...     
+
+
+![alt text](Pictures/arborescence1.png)   
+>*Arborescence du dossier TEST-UNITAIRE-DEBUTANT originale*   
+      
+
+
+![alt text](Pictures/arborescence2.png) >*Arborescence du dossier TEST-UNITAIRE-DEBUTANT modifiée*
+
+
+
+![alt text](Pictures/message_erreur1.png)     
+>*Message d'erreur lors du passage de Test (il faudra modifier les nom du fichier math_test.js en math.test.js car Jest reconnaît d'office certain format mais pas l'underscore).*
