@@ -13,16 +13,34 @@ Cela installera aussi le package.json du projet /// pour mémoire, dans les proj
 npm install --save-dev jest     
 
 
-J'obtiens un message d'erreur lorsque je lance la commande. Cela implique la modification d'une ligne code dans le package...     
+J'obtiens un message d'erreur lorsque je lance la commande. Cela implique la modification d'une ligne de code dans le package.  
+  
+  
+>![alt text](Pictures/message_erreur1.png)     
+*Message d'erreur lors du passage de Test (il faudra modifier le nom du fichier math_test.js en math.test.js car Jest reconnaît d'office certain format mais pas l'underscore).*
 
 
 >![alt text](Pictures/arborescence1.png)   
 *Arborescence du dossier TEST-UNITAIRE-DEBUTANT originale*   
-      
 
 
 >![alt text](Pictures/arborescence2.png)  
  *Arborescence du dossier TEST-UNITAIRE-DEBUTANT modifiée*  
 
->![alt text](Pictures/message_erreur1.png)     
-*Message d'erreur lors du passage de Test (il faudra modifier le nom du fichier math_test.js en math.test.js car Jest reconnaît d'office certain format mais pas l'underscore).*
+>**Lancement des tests** : 
+npm test 
+
+1. Test réussi :  
+
+![alt text](Pictures/mathJsForTestPass.PNG)  
+
+![alt text](Pictures/npmTestPassed.PNG)  
+  
+
+2. Test échoué :  
+  
+![alt text](Pictures/mathJsForTestFail.PNG)  
+
+![alt text](Pictures/npmTestFailed.PNG)    
+
+
